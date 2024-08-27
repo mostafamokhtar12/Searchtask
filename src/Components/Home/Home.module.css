@@ -1,0 +1,15 @@
+.mytable{
+    border:blue 2px solid;
+}
+
+.dropdowndiv{
+    max-height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition:  max-height 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.show {
+    max-height: 100%;
+    opacity: 1; 
+}
